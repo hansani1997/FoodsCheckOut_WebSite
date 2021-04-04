@@ -1,0 +1,10 @@
+.container{
+    padding-top: 2rem;
+}
+.navbar-nav { 
+    flex-direction: row;
+}
+.li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
