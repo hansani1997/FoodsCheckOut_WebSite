@@ -1,4 +1,18 @@
-.example-spacer {
-    flex: 1 1 auto;
-  }
-  
+div.bg-image {
+  width: 91vw;
+  height: 100vh;
+  background-image: url(/assets/7.jpg);
+}
+div.para{
+    padding-top: 15rem;   
+}
+div.para h1{
+    font-size:45px;
+    padding-bottom: 2rem;
+}
+form.input{
+  padding: 5rem;
+}
+p.container{
+  padding-top: 2rem;
+}
