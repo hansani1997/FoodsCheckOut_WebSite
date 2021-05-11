@@ -16,3 +16,9 @@ form.input{
 p.container{
   padding-top: 2rem;
 }
+.size{
+  max-width: 400px;
+}
+.a{
+  text-decoration: none;
+}

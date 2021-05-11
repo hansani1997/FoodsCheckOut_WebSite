@@ -1,0 +1,14 @@
+.card{
+   margin-left: 18rem;
+   border:darkslateblue;
+}
+.text{
+    font-size:60px;
+}
+.label{
+    font-size:20px;
+}
+.card-footer{
+    background-color: transparent;
+    text-align: center;
+}
