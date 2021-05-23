@@ -1,0 +1,98 @@
+<nav class="navbar bg-dark navbar-dark">
+    <div class="navbar-brand mx-5">
+        <span>DailyFoods</span>
+    </div>
+    <div class="nav navbar-nav navbar-right">
+        <button type="submit" class="btn btn-light btn-lg mx-3 mt-2"><a href="https://www.ubereats.com/lk/colombo/food-delivery/delice-de-cliff-colombo-05/ZoBHOrEdS6CRf_Cm8bn5sg">Actual Site</a></button>
+    </div>
+  </nav>
+  <div class="bg-image fluid">
+  <div class="container">
+    <div class="row">
+        <div class="card my-5 col-md-6 " >
+            <div class="container my-5">
+                <form> 
+                    
+                    <h1 class="mb-5"> What do you need <br> Lets Start ....</h1>
+
+                    <div class="form-group mb-5">
+                        <button type="submit" class="btn btn-dark btn-lg mx-3 mt-2" (click)="burger()">Burgers</button>
+                        <button type="submit" class="btn btn-dark btn-lg mx-3 mt-2" (click)="rise()">Rise</button>
+                        <button type="submit" class="btn btn-dark btn-lg mx-3 mt-2" (click)="kottu()">Kottu</button>
+                        <button type="submit" class="btn btn-dark btn-lg mx-3 mt-2" (click)="desert()">Desert</button>
+                    </div>
+                </form>
+                <button *ngIf="total==0" (click)="setTotal()" class="btn btn-success btn-lg mx-4 mt-4 col-6">CheckOut</button>
+                <div class="card my-3" style="background-color: lightcoral; text-align: center;">
+                    <div *ngIf="total!=0"> 
+                        <div *ngIf="burgertotal!=0" class="row my-3" >
+                            <h4 class="col ">For Bugers   :</h4>
+                            <h4 class="col">
+                                {{burgertotal}}
+                            </h4>
+                        </div>
+                            <div *ngIf="risetotal!=0"class="row my-3" >
+                                <h4 class="col">For Rise  :</h4>
+                                <h4 class="col">
+                                    {{risetotal}}
+                                </h4>
+                            </div>
+                            <div *ngIf="kottutotal!=0" class="row my-3">
+                                <h4 class="col">For Kottu  :</h4>
+                                <h4 class="col">
+                                    {{kottutotal}}
+                                </h4>
+                            </div>
+                            <div *ngIf="deserttotal!=0" class="row my-3">
+                                <h4 class="col">For Desert :</h4>
+                                <h4 class="col">
+                                    {{deserttotal}}
+                                </h4>
+                            </div>
+                            <div class="row my-4">
+                                <h3 class="col">FOR CLAIMED :</h3>
+                                <h3 class="col">{{total}}</h3>
+                            </div>
+                            <button class="btn btn-success btn-lg mx-3 my-2" (click)="clear()">Clear the CheckOut</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card my-5 col-md-6" style="background-image: url('assets/p15.jpg');">
+            <div class="container">
+                <div *ngIf="idn==null;">
+                    <h1 class="font my-4">Lets checkout what we have to you </h1>
+                    <h4 class="font my-4">Click the Items and Choose what you need to eat .... </h4>
+                </div>
+                <h1 class="mt-3"*ngIf="idn==0;">Burgers</h1>
+                <h1 class="mt-3"*ngIf="idn==1;">Rise</h1>
+                <h1 class="mt-3"*ngIf="idn==2;">Kottu</h1>
+                <h1 class="mt-3"*ngIf="idn==3;">Desert</h1>
+                <div *ngFor="let i of item | keyvalue ;let index=index ;trackBy:indexTracker;">
+                    <div class="row mt-5" >
+                        <div class="col ">
+                            <div class="form-group mb-2">
+                                <label class="font" >{{i.key}}</label>
+                                <label class="font mx-2" >{{i.value}}</label>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group mb-2">
+                                <input  type="number" [(ngModel)]="num[index]"  (input)="onValue(i.key,index,i.value)" id="{{i.value}}" min="0" max="10" class="form-outline form-white form-control-lg col-12 mb-3">
+                                <!-- <p>{{i.value}}</p> -->
+                                <!-- <p>{{total}}</p>
+                                <p>{{index}}</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button (click)="setTotal()">Set Total</button>
+                <p>{{total}}</p> -->
+             </div><!--(input)="onValue(i)"  -->
+        </div>
+    </div>
+</div>
+</div>
+
+

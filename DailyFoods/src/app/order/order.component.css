@@ -1,0 +1,13 @@
+
+.card{
+    border:none;
+    
+}
+.font{
+    color: white;
+}
+.bg-image{
+max-width:100vmax;
+height:150vh;
+background-image: url(/assets/w2.jpg);
+}

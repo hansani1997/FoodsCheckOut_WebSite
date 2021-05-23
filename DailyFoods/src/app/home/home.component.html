@@ -4,12 +4,12 @@
      <div class="para">
       <h1>Hungry? You're in the right place</h1>
       <form class="form-inline">
-            <input class="form-outline form-white col-lg-6 form-control-lg mx-2" type="text" placeholder="Address">
-            <select class="form-outline form-white form-control-lg mx-2">
+            <input class="form-outline form-white col-lg-6 form-control-lg mx-2 my-2" type="text" placeholder="Address">
+            <select class="form-outline form-white form-control-lg mx-2 my-2">
               <option>Deliver Now</option>
               <option>Shedule for Later</option>
             </select>
-            <button type="submit" class="btn-lg btn-dark mx-2">Submit</button>
+            <button type="submit" class="btn-lg btn-dark mx-2 my-2">Submit</button>
         </form>
         <p class="container "><a class="text-dark" routerLink="/form"><u>Sign In</u></a> In for your recent addresses</p>
       </div>
@@ -77,7 +77,7 @@
   </div> -->
   <div class="head" fxLayout="row wrap" fxLayoutGap="16px grid">
     <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let type of list">
-      <a href={{type.url}}>
+      <a routerLink={{type.link}}>
         <mat-card class="mx-2 ml-4 size">
           <img mat-card-image src={{type.pic}} alt={{type.alt}} >
           <mat-card-content>

@@ -14,8 +14,8 @@ export class SidenavComponent implements OnInit {
   openNav()  {
     document.getElementById("mySidenav").style.width = "300px";
     
-      document.body.style.height = '100vh';
-      document.body.style.overflowY = 'hidden';
+      //document.body.style.height = '100vh';
+      //document.body.style.overflowY = 'hidden';
       
     
     
@@ -23,8 +23,8 @@ export class SidenavComponent implements OnInit {
   }
   closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.body.style.height = '';
-    document.body.style.overflowY = '';
+    //document.body.style.height = '';
+    //document.body.style.overflowY = '';
     
   }
 

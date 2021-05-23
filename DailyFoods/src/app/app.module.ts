@@ -6,6 +6,7 @@ import {MatCardModule} from '@angular/material/card';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 import { AppRoutingModule ,routingcomponents} from './app-routing.module';
@@ -14,11 +15,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DataService } from './data.service';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     routingcomponents,
-    SidenavComponent
+    SidenavComponent,
+    
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -29,7 +36,8 @@ import { DataService } from './data.service';
     MatCardModule,
     FormsModule,
     HttpClientModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatTabsModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

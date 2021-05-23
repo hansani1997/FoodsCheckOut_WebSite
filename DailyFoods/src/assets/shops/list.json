@@ -1,9 +1,9 @@
 [
-    {"pic":"assets/p1.PNG" ,"alt":"Al Madina Catering","p1":"Al Madina Catering - Dehiwala","p2":"35-45 min Rs95 Fee","id":"0","url":"https://www.ubereats.com/lk/colombo/food-delivery/mood-one-kotte/AA_9_Z5DQNaO3oN7Gl8zPw"},
-    {"pic":"assets/p2.PNG" ,"alt":"Bakers'Blend - Dehiwala","p1":"Bakers'Blend - Dehiwala","p2":"25-35 min Rs95 Fee","id":"1","url":"https://www.ubereats.com/lk/colombo/food-delivery/bakersblend-dehiwala/e2F5ZQJtQW-HsH_SpMTclA"},
-    {"pic":"assets/p3.PNG" ,"alt":"Kamuko Foods - Dehiwala","p1":"Kamuko Foods - Dehiwala","p2":"40-50 min Rs95 Fee","id":"2","url":"https://www.ubereats.com/lk/colombo/food-delivery/kamuko-foods-dehiwala/i9r7w2luTd6FwDbSV1Y8RQ"},
-    {"pic":"assets/p4.PNG" ,"alt":"Red Roosters Colombo - Thalawathugoda","p1":"Red Roosters Colombo - Thalawathugoda","p2":"35-45 min Rs95 Fee","id":"3","url":"https://www.ubereats.com/lk/colombo/food-delivery/red-roosters-colombo-thalawathugoda/P0H_dmK_S2OOLF41Csy2Bg"},
-    {"pic":"assets/p5.PNG" ,"alt":"Delice De Cliff - Colombo 05","p1":"Delice De Cliff - Colombo 05","p2":"25-35 min Rs95 Fee","id":"4","url":"https://www.ubereats.com/lk/colombo/food-delivery/delice-de-cliff-colombo-05/ZoBHOrEdS6CRf_Cm8bn5sg"},
-    {"pic":"assets/p6.PNG" ,"alt":"Home Cooking.lk - Rajagiriya","p1":"Home Cooking.lk - Rajagiriya","p2":"40-50 min Rs95 Fee","id":"5","url":"https://www.ubereats.com/lk/colombo/food-delivery/home-cookinglk-rajagiriya/PyqGvkJlQwq4tHKY10_H7g"}
+    {"pic":"assets/p1.PNG" ,"alt":"Al Madina Catering","p1":"Al Madina Catering - Dehiwala","p2":"35-45 min Rs95 Fee","id":"0","url":"https://www.ubereats.com/lk/colombo/food-delivery/mood-one-kotte/AA_9_Z5DQNaO3oN7Gl8zPw","link":"/order"},
+    {"pic":"assets/p2.PNG" ,"alt":"Bakers'Blend - Dehiwala","p1":"Bakers'Blend - Dehiwala","p2":"25-35 min Rs95 Fee","id":"1","url":"https://www.ubereats.com/lk/colombo/food-delivery/bakersblend-dehiwala/e2F5ZQJtQW-HsH_SpMTclA","link":"/order"},
+    {"pic":"assets/p3.PNG" ,"alt":"Kamuko Foods - Dehiwala","p1":"Kamuko Foods - Dehiwala","p2":"40-50 min Rs95 Fee","id":"2","url":"https://www.ubereats.com/lk/colombo/food-delivery/kamuko-foods-dehiwala/i9r7w2luTd6FwDbSV1Y8RQ","link":"/order"},
+    {"pic":"assets/p4.PNG" ,"alt":"Red Roosters Colombo - Thalawathugoda","p1":"Red Roosters Colombo - Thalawathugoda","p2":"35-45 min Rs95 Fee","id":"3","url":"https://www.ubereats.com/lk/colombo/food-delivery/red-roosters-colombo-thalawathugoda/P0H_dmK_S2OOLF41Csy2Bg","link":"/order"},
+    {"pic":"assets/p5.PNG" ,"alt":"Delice De Cliff - Colombo 05","p1":"Delice De Cliff - Colombo 05","p2":"25-35 min Rs95 Fee","id":"4","url":"https://www.ubereats.com/lk/colombo/food-delivery/delice-de-cliff-colombo-05/ZoBHOrEdS6CRf_Cm8bn5sg","link":"/order"},
+    {"pic":"assets/p6.PNG" ,"alt":"Home Cooking.lk - Rajagiriya","p1":"Home Cooking.lk - Rajagiriya","p2":"40-50 min Rs95 Fee","id":"5","url":"https://www.ubereats.com/lk/colombo/food-delivery/home-cookinglk-rajagiriya/PyqGvkJlQwq4tHKY10_H7g","link":"/order"}
 
 ]

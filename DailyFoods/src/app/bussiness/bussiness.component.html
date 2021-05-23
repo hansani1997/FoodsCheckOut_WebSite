@@ -1,0 +1,68 @@
+<nav class="navbar bg-dark navbar-dark col-12">
+    <div class="navbar-brand">
+        <span>DailyFoods For Bussiness</span>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/form">login</a>
+      </li>
+    </ul>
+  </nav>
+
+<div class="container my-5 ">
+  <div class="card col-12">
+    <div class="row">
+      <div class="col ">
+    <div class="card-body ">
+      <h1 class="card-title ">Good food is great for business</h1>
+      <p class="card-text">Motivate your employees and delight customers by having meals delivered directly to them.</p>
+      <button type="button" class="btn btn-dark col-6  btn-lg mt-3" routerLink="/bform">Get Started for Free</button>
+    </div>
+    </div>
+    <div class="col" >
+        <img src="assets\b1.PNG" class="col-md-12" >
+    </div>
+    </div>
+  </div>
+  </div>
+    <ng-container *ngIf="(asyncTabs | async) === null">
+      Loading tabs...
+    </ng-container>
+    <div class="container">
+    <mat-tab-group class="mx-4 my-5">
+      <mat-tab *ngFor="let tab of asyncTabs | async">
+        <ng-template mat-tab-label>{{tab.label}}</ng-template>
+        <div class="row my-3">
+          <div class="col">
+            <mat-card class="mat-elevation-z0" >
+              <img mat-card-image src={{tab.img1}}>
+              <mat-card-content>
+                <h5>{{tab.h1}}</h5>
+                <p class="p">{{tab.p1}}</p>
+              </mat-card-content>
+            </mat-card>
+            </div>
+            <div class="col">
+              <mat-card class="mat-elevation-z0">
+                <img mat-card-image src={{tab.img2}}>
+                <mat-card-content>
+                  <h5>{{tab.h2}}</h5>
+                  <p class="p">{{tab.p2}}</p>
+                </mat-card-content>
+              </mat-card>
+              </div>
+              <div class="col">
+                <mat-card class="mat-elevation-z0">
+                  <img mat-card-image src={{tab.img3}}>
+                  <mat-card-content>
+                    <h5>{{tab.h3}}</h5>
+                    <p class="p">{{tab.p3}}</p>
+                  </mat-card-content>
+                </mat-card>
+                </div>
+            </div>
+      </mat-tab>
+    </mat-tab-group>
+    </div>
+  
+  
