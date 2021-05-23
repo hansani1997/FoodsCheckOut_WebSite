@@ -14,6 +14,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DataService } from './data.service';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 
@@ -23,6 +25,8 @@ import { DataService } from './data.service';
     AppComponent,
     routingcomponents,
     SidenavComponent,
+    FooterComponent,
+    
     
     
     
@@ -37,7 +41,8 @@ import { DataService } from './data.service';
     FormsModule,
     HttpClientModule,
     FlexLayoutModule,
-    MatTabsModule
+    MatTabsModule,
+    
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

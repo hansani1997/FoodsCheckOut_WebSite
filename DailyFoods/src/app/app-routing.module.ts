@@ -7,13 +7,15 @@ import { OrderComponent } from './order/order.component';
 import { FormComponent } from './form/form.component';
 import { BussinessComponent } from './bussiness/bussiness.component';
 import { BformComponent } from './bform/bform.component';
+import { SignupComponent } from './signup/signup.component';
 const routes: Routes = [
   {path:'',component:NavComponent},
   {path :"form",component:FormComponent},
   {path :"home",component:HomeComponent},
   {path :"bussiness",component:BussinessComponent},
   {path :"bform",component:BformComponent},
-  {path :"order",component:OrderComponent}
+  {path :"order",component:OrderComponent},
+  {path :"signup",component:SignupComponent}
   
 
   
@@ -25,4 +27,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingcomponents=[FormComponent,HomeComponent,NavComponent,BussinessComponent,BformComponent,OrderComponent]
+export const routingcomponents=[FormComponent,HomeComponent,NavComponent,BussinessComponent,BformComponent,OrderComponent,SignupComponent]
