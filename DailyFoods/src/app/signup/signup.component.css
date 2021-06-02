@@ -1,15 +1,22 @@
-.center{
-    text-align:right;
+.center {
+    text-align: right;
     margin: 5rem;
 }
-.card{
+
+.card {
     border-top-width: medium;
     border-left: none;
     border-right: none;
     margin: 5rem;
-
 }
-.color{
+
+.color {
     color: green;
     font-weight: bold;
+}
+
+div.bg-image {
+    width: 91vw;
+    height: 100vh;
+    background-image: url(/assets/7.jpg);
 }

@@ -8,8 +8,9 @@ import { FormComponent } from './form/form.component';
 import { BussinessComponent } from './bussiness/bussiness.component';
 import { BformComponent } from './bform/bform.component';
 import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 const routes: Routes = [
-  {path:'',component:NavComponent},
+  {path:'',component: NavComponent},
   {path :"form",component:FormComponent},
   {path :"home",component:HomeComponent},
   {path :"bussiness",component:BussinessComponent},

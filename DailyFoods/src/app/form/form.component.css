@@ -1,15 +1,28 @@
-.card{
-   text-align: center;
-   border:darkslateblue;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.text{
-    font-size:60px;
-    text-align: center;
+
+.log {
+    background-color: grey;
 }
-.label{
-    font-size:20px;
+
+.d-block {
+    width: 600px;
+    height: 550px;
 }
-.card-footer{
-    background-color: transparent;
-    text-align: center;
+
+.login {
+    position: center;
+}
+
+span {
+    color: green;
+}
+
+div.bg-image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/7.jpg);
 }

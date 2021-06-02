@@ -1,21 +1,20 @@
-
 <div class="container">
-  <div class="bg-image">
-     <div class="para">
-      <h1>Hungry? You're in the right place</h1>
-      <form class="form-inline">
-            <input class="form-outline form-white col-lg-6 form-control-lg mx-2 my-2" type="text" placeholder="Address">
-            <select class="form-outline form-white form-control-lg mx-2 my-2">
+    <div class="bg-image">
+        <div class="para">
+            <h1>Hungry? You're in the right place</h1>
+            <form class="form-inline">
+                <input class="form-outline form-white col-lg-6 form-control-lg mx-2 my-2" type="text" placeholder="Address">
+                <select class="form-outline form-white form-control-lg mx-2 my-2">
               <option>Deliver Now</option>
               <option>Shedule for Later</option>
             </select>
-            <button type="submit" class="btn-lg btn-dark mx-2 my-2">Submit</button>
-        </form>
-        <p class="container "><a class="text-dark" routerLink="/form"><u>Sign In</u></a> In for your recent addresses</p>
-      </div>
-  </div>
-<h2 class="font-inline d-flex justify-content-center "><img src="assets\logo.png " width="50px" class="mx-2">There's more to love in the app.</h2>
-<h3 class="my-5">Order Food Delivery in Nugegoda</h3>
+                <button type="submit" class="btn-lg btn-dark mx-2 my-2">Submit</button>
+            </form>
+            <p class="container "><a class="text-dark" routerLink="/form"><u>Sign In</u></a> In for your recent addresses</p>
+        </div>
+    </div>
+    <h2 class="font-inline d-flex justify-content-center "><img src="assets\logo.png " width="50px" class="mx-2">There's more to love in the app.</h2>
+    <h3 class="my-5">Order Food Delivery in Nugegoda</h3>
 
 </div>
 <!-- <div class="row">
@@ -47,7 +46,7 @@
       </mat-card-content>
   </mat-card>
   </div> -->
-  <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -75,51 +74,46 @@
       
     </div>
   </div> -->
-  <div class="head" fxLayout="row wrap" fxLayoutGap="16px grid">
+<div class="head" fxLayout="row wrap" fxLayoutGap="16px grid">
     <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let type of list">
-      <a routerLink={{type.link}}>
-        <mat-card class="mx-2 ml-4 size">
-          <img mat-card-image src={{type.pic}} alt={{type.alt}} >
-          <mat-card-content>
-            <p class="size ml-5 ">{{type.p1}}</p>
-            <p class="size ml-5 ">{{type.p2}}</p>
-          </mat-card-content>
-        </mat-card>
-      </a>
+        <a routerLink={{type.link}}>
+            <mat-card class="mx-2 ml-4 size">
+                <img mat-card-image src={{type.pic}} alt={{type.alt}}>
+                <mat-card-content>
+                    <p class="size ml-5 ">{{type.p1}}</p>
+                    <p class="size ml-5 ">{{type.p2}}</p>
+                </mat-card-content>
+            </mat-card>
+        </a>
     </div>
-    </div>
+</div>
 <div class="row mt-4 ">
-  <div class="col">
-    <mat-card class="mx-2 ml-4 size">
-      <img mat-card-image src="assets/u.PNG" alt="Feed your employees" >
-      <mat-card-content>
-        <p class="size ml-5 h4 ">Feed your employees</p>
-        <p class="size ml-5 "></p>
-      </mat-card-content>
-    </mat-card>
+    <div class="col">
+        <mat-card class="mx-2 ml-4 size">
+            <img mat-card-image src="assets/u.PNG" alt="Feed your employees">
+            <mat-card-content>
+                <p class="size ml-5 h4 ">Feed your employees</p>
+                <p class="size ml-5 "></p>
+            </mat-card-content>
+        </mat-card>
     </div>
     <div class="col">
-      <mat-card class="mx-2 size">
-        <img mat-card-image src="assets/b.PNG" alt="Uthsahaya - Dehiwala" >
-        <mat-card-content>
-          <p class="size ml-5 h4">Your restaurant, delivered</p>
-          <p class="size ml-5 "></p>
-  
-        </mat-card-content>
-    </mat-card>
+        <mat-card class="mx-2 size">
+            <img mat-card-image src="assets/b.PNG" alt="Uthsahaya - Dehiwala">
+            <mat-card-content>
+                <p class="size ml-5 h4">Your restaurant, delivered</p>
+                <p class="size ml-5 "></p>
+
+            </mat-card-content>
+        </mat-card>
     </div>
     <div class="col">
-      <mat-card class="mx-2 size">
-        <img mat-card-image src="assets/e.PNG" alt="Uthsahaya - Dehiwala" >
-        <mat-card-content>
-          <p class="size ml-5 h4 ">Deliver with Uber Eats</p>
-          <p class="size ml-5 "></p>
-        </mat-card-content>
-    </mat-card>
+        <mat-card class="mx-2 size">
+            <img mat-card-image src="assets/e.PNG" alt="Uthsahaya - Dehiwala">
+            <mat-card-content>
+                <p class="size ml-5 h4 ">Deliver with Uber Eats</p>
+                <p class="size ml-5 "></p>
+            </mat-card-content>
+        </mat-card>
     </div>
-    </div>
-
-
-
-
-
+</div>
