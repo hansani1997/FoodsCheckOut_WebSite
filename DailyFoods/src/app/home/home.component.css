@@ -1,24 +1,46 @@
 div.bg-image {
-  width: 91vw;
-  height: 100vh;
-  background-image: url(/assets/7.jpg);
+    width: 91vw;
+    height: 100vh;
+    background-image: url(/assets/7.jpg);
 }
-div.para{
-    padding-top: 15rem;   
+
+div.para {
+    padding-top: 15rem;
 }
-div.para h1{
-    font-size:45px;
+
+div.para h1 {
+    font-size: 45px;
     padding-bottom: 2rem;
 }
-form.input{
-  padding: 5rem;
+
+form.input {
+    padding: 5rem;
 }
-p.container{
-  padding-top: 2rem;
+
+p.container {
+    padding-top: 2rem;
 }
-.size{
-  max-width: 400px;
+
+.size {
+    max-width: 400px;
 }
-.a{
-  text-decoration: none;
+
+.a {
+    text-decoration: none;
+}
+
+.head img:hover {
+    transform: scale(1.04);
+}
+
+.head img {
+    transition: 0.4s ease;
+}
+
+.col img:hover {
+    transform: scale(1.04);
+}
+
+.col img {
+    transition: 0.4s ease;
 }
